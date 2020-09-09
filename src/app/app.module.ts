@@ -99,7 +99,7 @@ import {EmptyDemoComponent} from './demo/view/emptydemo.component';
 import {ChartsDemoComponent} from './demo/view/chartsdemo.component';
 import {FileDemoComponent} from './demo/view/filedemo.component';
 import {DocumentationComponent} from './demo/view/documentation.component';
-
+import {OfertComponent} from './demo/view/ofert.component';
 // Demo matriculacion
 import {CarService} from './demo/service/carservice';
 import {CountryService} from './demo/service/countryservice';
@@ -211,7 +211,8 @@ import {AttendanceServiceService} from './services/attendance/attendance-service
         ChartsDemoComponent,
         EmptyDemoComponent,
         FileDemoComponent,
-        DocumentationComponent
+        DocumentationComponent,
+        OfertComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

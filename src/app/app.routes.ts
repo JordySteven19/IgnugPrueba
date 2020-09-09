@@ -14,6 +14,7 @@ import {EmptyDemoComponent} from './demo/view/emptydemo.component';
 import {ChartsDemoComponent} from './demo/view/chartsdemo.component';
 import {FileDemoComponent} from './demo/view/filedemo.component';
 import {DocumentationComponent} from './demo/view/documentation.component';
+import {OfertComponent} from './demo/view/ofert.component';
 import {AppMainComponent} from './layouts/full/app.main.component';
 import {BlankComponent} from './layouts/blank/blank.component';
 import {AuthGuard} from './shared/auth-guard/auth.guard';
@@ -35,6 +36,7 @@ export const routes: Routes = [
             {path: 'components/charts', component: ChartsDemoComponent},
             {path: 'components/file', component: FileDemoComponent},
             {path: 'documentation', component: DocumentationComponent},
+            {path: 'Ofert', component: OfertComponent},
             {
                 path: 'attendance',
                 loadChildren: () => import('./pages/attendance/attendance.module').then(m => m.AttendanceModule),

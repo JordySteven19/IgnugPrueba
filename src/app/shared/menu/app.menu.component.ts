@@ -25,7 +25,7 @@ export class AppMenuComponent implements OnInit {
                 label: 'Components', icon: 'pi pi-fw pi-star', routerLink: ['/components'],
                 items: [
                     {label: 'Sample Page', icon: 'pi pi-fw pi-th-large', routerLink: ['/components/sample']},
-                    {label: 'Forms', icon: 'pi pi-fw pi-file', routerLink: ['/components/forms']},
+                    {label: 'Formas', icon: 'pi pi-fw pi-file', routerLink: ['/components/forms']},
                     {label: 'Data', icon: 'pi pi-fw pi-table', routerLink: ['/components/data']},
                     {label: 'Panels', icon: 'pi pi-fw pi-list', routerLink: ['/components/panels']},
                     {label: 'Overlays', icon: 'pi pi-fw pi-clone', routerLink: ['/components/overlays']},
@@ -94,6 +94,9 @@ export class AppMenuComponent implements OnInit {
             },
             {
                 label: 'Docs', icon: 'pi pi-fw pi-file', routerLink: ['/documentation']
+            },
+            {
+                label: 'Ofertas', icon: 'pi pi-fw pi-file', routerLink: ['/Ofert']
             },
             {
                 label: 'Buy Now', icon: 'pi pi-fw pi-money-bill', url: ['https://www.primefaces.org/store']
